@@ -3,7 +3,7 @@ const CONFLUENCE_BASE_URL = "https://jobber.atlassian.net/wiki"; // Replace with
 const CONFLUENCE_SPACE_ID = "903544834"; // Replace with your space's numeric ID
 const CONFLUENCE_PARENT_PAGE_ID = "3676176522"; // Replace with parent page ID
 const CONFLUENCE_API_EMAIL = "aranea.s@getjobber.com"; // Your Atlassian email
-const CONFLUENCE_API_TOKEN = "ATATT3xFfGF08IdH_ltX0lOmogXSowKxbDX9m0xgIEr3cNAwcT-uNHvG1dt6LADZkhYhYQ3Ke3dQBr4ET4HLNkwrUNDdjUMcu8L7x9EMW-lK0Nz4uD7aUt5GsFXk8UYplFBJhLkgKEpo3coqCpIRPRFEVwPUwNzeeAYa4Bp5iovk1EDyzvhPLCI=C1CC585E"; // Your API token
+const CONFLUENCE_API_TOKEN = " "; // Your API token
 
 // === MAIN FUNCTION ===
 function generateAndPushMonthlySummary() {
