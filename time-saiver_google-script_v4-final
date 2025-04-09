@@ -1,11 +1,11 @@
 // === CONFIGURATION ===
-const CONFLUENCE_BASE_URL = "https://jobber.atlassian.net/wiki";
-const CONFLUENCE_API_EMAIL = "aranea.s@getjobber.com";
-const CONFLUENCE_API_TOKEN = "INSERT_API"; // Replace securely
-const TEMPLATE_PAGE_ID = "3685449814";
-const PARENT_PAGE_ID = "3676176522";
-const SPACE_KEY = "SEC";
-const SHEET_ID = "1ilTDUBqnNee_lq949_InvDsRbMjW-Uj4Zl1VCD1K6JE"; // Replace with your Sheet ID
+const CONFLUENCE_BASE_URL = " ";
+const CONFLUENCE_API_EMAIL = " ";
+const CONFLUENCE_API_TOKEN = " "; // Replace securely
+const TEMPLATE_PAGE_ID = " ";
+const PARENT_PAGE_ID = " ";
+const SPACE_KEY = " ";
+const SHEET_ID = " "; // Replace with your Sheet ID
 const SHEET_NAME = "Form Responses";
 
 // === MAIN FUNCTION ===
