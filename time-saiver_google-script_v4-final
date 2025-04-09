@@ -1,7 +1,7 @@
 // === CONFIGURATION ===
 const CONFLUENCE_BASE_URL = "https://jobber.atlassian.net/wiki";
 const CONFLUENCE_API_EMAIL = "aranea.s@getjobber.com";
-const CONFLUENCE_API_TOKEN = "ATATT3xFfGF08IdH_ltX0lOmogXSowKxbDX9m0xgIEr3cNAwcT-uNHvG1dt6LADZkhYhYQ3Ke3dQBr4ET4HLNkwrUNDdjUMcu8L7x9EMW-lK0Nz4uD7aUt5GsFXk8UYplFBJhLkgKEpo3coqCpIRPRFEVwPUwNzeeAYa4Bp5iovk1EDyzvhPLCI=C1CC585E"; // Replace securely
+const CONFLUENCE_API_TOKEN = "INSERT_API"; // Replace securely
 const TEMPLATE_PAGE_ID = "3685449814";
 const PARENT_PAGE_ID = "3676176522";
 const SPACE_KEY = "SEC";
