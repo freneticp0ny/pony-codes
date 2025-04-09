@@ -1,0 +1,90 @@
+// === CONFIGURATION ===
+const CONFLUENCE_BASE_URL = "https://jobber.atlassian.net/wiki";
+const CONFLUENCE_API_EMAIL = "aranea.s@getjobber.com";
+const CONFLUENCE_API_TOKEN = "ATATT3xFfGF08IdH_ltX0lOmogXSowKxbDX9m0xgIEr3cNAwcT-uNHvG1dt6LADZkhYhYQ3Ke3dQBr4ET4HLNkwrUNDdjUMcu8L7x9EMW-lK0Nz4uD7aUt5GsFXk8UYplFBJhLkgKEpo3coqCpIRPRFEVwPUwNzeeAYa4Bp5iovk1EDyzvhPLCI=C1CC585E"; // Replace with your real token
+
+const TEMPLATE_PAGE_ID = "3685449814";    // Hidden template page
+const PARENT_PAGE_ID = "3676176522";      // Where new pages are created
+const SPACE_KEY = "SEC";                  // Your space key, not ID
+
+// === MAIN FUNCTION ===
+function generateMonthlyConfluencePage() {
+  // if (!isLastFridayOfMonth()) return;
+  copyPageFromTemplate();
+}
+
+// === COPY FUNCTION USING API V1 ===
+function copyPageFromTemplate() {
+  const monthName = new Date().toLocaleString('default', { month: 'long' });
+  const newTitle = `Time S(Ai)ver Summary - ${monthName}`;
+
+  const getUrl = `${CONFLUENCE_BASE_URL}/rest/api/content/${TEMPLATE_PAGE_ID}?expand=body.storage`;
+
+  const authHeader = "Basic " + Utilities.base64Encode(CONFLUENCE_API_EMAIL + ":" + CONFLUENCE_API_TOKEN);
+
+  const getOptions = {
+    method: "get",
+    contentType: "application/json",
+    headers: {
+      Authorization: authHeader
+    },
+    muteHttpExceptions: true
+  };
+
+  try {
+    const getResponse = UrlFetchApp.fetch(getUrl, getOptions);
+    const getCode = getResponse.getResponseCode();
+    if (getCode !== 200) {
+      Logger.log("Failed to fetch template. Status: " + getCode);
+      Logger.log(getResponse.getContentText());
+      return;
+    }
+
+    const templateData = JSON.parse(getResponse.getContentText());
+    const bodyContent = templateData.body.storage.value;
+
+    const postUrl = `${CONFLUENCE_BASE_URL}/rest/api/content`;
+
+    const payload = {
+      type: "page",
+      title: newTitle,
+      space: { key: SPACE_KEY },
+      ancestors: [{ id: PARENT_PAGE_ID }],
+      body: {
+        storage: {
+          value: bodyContent,
+          representation: "storage"
+        }
+      }
+    };
+
+    const postOptions = {
+      method: "post",
+      contentType: "application/json",
+      headers: {
+        Authorization: authHeader
+      },
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    };
+
+    const postResponse = UrlFetchApp.fetch(postUrl, postOptions);
+    const postCode = postResponse.getResponseCode();
+    const postContent = postResponse.getContentText();
+
+    Logger.log("POST status: " + postCode);
+    Logger.log(postContent);
+
+  } catch (e) {
+    Logger.log("ERROR: " + e.message);
+  }
+}
+
+// === LAST FRIDAY CHECK (optional) ===
+function isLastFridayOfMonth(date = new Date()) {
+  const day = date.getDay(); // 5 = Friday
+  const month = date.getMonth();
+  const nextWeek = new Date(date);
+  nextWeek.setDate(date.getDate() + 7);
+  return day === 5 && nextWeek.getMonth() !== month;
+}
