@@ -1,0 +1,256 @@
+[
+  {
+    "campaign_id": 39564,
+    "campaign_name": "Campaign created on January 08, 2024 at 02:13 PM",
+    "start_date": "2024-01-08",
+    "end_date": "2099-12-31",
+    "status": 100,
+    "sending_days": [
+      "MON"
+    ]
+  },
+  {
+    "campaign_id": 42196,
+    "campaign_name": "Core Training  (309)",
+    "start_date": "2024-01-23",
+    "end_date": "2099-12-31",
+    "status": 1,
+    "sending_days": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ]
+  },
+  {
+    "campaign_id": 43932,
+    "campaign_name": "Core Resend ",
+    "start_date": "2024-01-24",
+    "end_date": "2024-02-24",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 60161,
+    "campaign_name": "Mar 903",
+    "start_date": "2024-03-04",
+    "end_date": "2024-04-04",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 60754,
+    "campaign_name": "Phish Remedial S07|E05 Episode",
+    "start_date": "2024-03-15",
+    "end_date": "2024-04-15",
+    "status": 100,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 61294,
+    "campaign_name": "Apr 904",
+    "start_date": "2024-03-28",
+    "end_date": "2024-04-28",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 69952,
+    "campaign_name": "MAY 905",
+    "start_date": "2024-04-25",
+    "end_date": "2024-05-25",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 78289,
+    "campaign_name": "Failed User Training Resends",
+    "start_date": "2024-05-15",
+    "end_date": "2024-06-15",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 78877,
+    "campaign_name": "JUNE 906",
+    "start_date": "2024-05-28",
+    "end_date": "2024-06-28",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 79095,
+    "campaign_name": "May 2024 Remedial Training",
+    "start_date": "2024-05-30",
+    "end_date": "2024-06-30",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 87772,
+    "campaign_name": "JULY 907",
+    "start_date": "2024-06-26",
+    "end_date": "2024-07-26",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 96615,
+    "campaign_name": "June 2024 Remedial Training",
+    "start_date": "2024-07-19",
+    "end_date": "2024-08-19",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 96948,
+    "campaign_name": "AUG 908",
+    "start_date": "2024-07-24",
+    "end_date": "2024-08-24",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 97249,
+    "campaign_name": "Template Testing",
+    "start_date": "2024-07-29",
+    "end_date": "2024-08-29",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 105656,
+    "campaign_name": "July 2024 Phish Remedial Training",
+    "start_date": "2024-08-14",
+    "end_date": "2024-09-14",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 106096,
+    "campaign_name": "SEP 909",
+    "start_date": "2024-08-23",
+    "end_date": "2024-09-23",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 115494,
+    "campaign_name": "August 2024 Remedial Training",
+    "start_date": "2024-09-18",
+    "end_date": "2024-10-18",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 115637,
+    "campaign_name": "OCT 910",
+    "start_date": "2024-09-23",
+    "end_date": "2024-10-23",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 116338,
+    "campaign_name": "September 2024 Phish Remedial Training",
+    "start_date": "2024-09-27",
+    "end_date": "2024-10-27",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 125745,
+    "campaign_name": "October 2024 Phish Remedial Training",
+    "start_date": "2024-10-25",
+    "end_date": "2024-11-25",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 126127,
+    "campaign_name": "NOV 911",
+    "start_date": "2024-10-30",
+    "end_date": "2024-11-30",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 135294,
+    "campaign_name": "DEC 912",
+    "start_date": "2024-11-20",
+    "end_date": "2024-12-20",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 145239,
+    "campaign_name": "JAN 1001",
+    "start_date": "2024-12-26",
+    "end_date": "2025-01-26",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 153476,
+    "campaign_name": "Failed Re-Sends (Q1)",
+    "start_date": "2025-01-03",
+    "end_date": "2025-02-03",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 155300,
+    "campaign_name": "2025 Core 4 (Auto-Enroll) (240)",
+    "start_date": "2025-01-21",
+    "end_date": "2099-12-31",
+    "status": 1,
+    "sending_days": [
+      "MON",
+      "TUE",
+      "WED",
+      "THU",
+      "FRI"
+    ]
+  },
+  {
+    "campaign_id": 156599,
+    "campaign_name": "Feb 1002",
+    "start_date": "2025-01-30",
+    "end_date": "2025-03-02",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 166901,
+    "campaign_name": "Mar 1003",
+    "start_date": "2025-02-27",
+    "end_date": "2025-03-27",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 166951,
+    "campaign_name": "February 2025 Remedial Phishing ",
+    "start_date": "2025-02-27",
+    "end_date": "2025-03-27",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 176955,
+    "campaign_name": "April 1004",
+    "start_date": "2025-03-24",
+    "end_date": "2025-04-24",
+    "status": 0,
+    "sending_days": []
+  },
+  {
+    "campaign_id": 177270,
+    "campaign_name": "March 2025 Phish Campaign Remedial ",
+    "start_date": "2025-03-28",
+    "end_date": "2025-04-28",
+    "status": 0,
+    "sending_days": []
+  }
+]
