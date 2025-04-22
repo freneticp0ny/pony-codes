@@ -1,0 +1,530 @@
+{
+  "trainings": [
+    {
+      "id": 285471,
+      "name": "1004 Cartoon",
+      "start": "2025-04-22",
+      "end": "2025-04-23",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 176955
+    },
+    {
+      "id": 285470,
+      "name": "1004 Infographic",
+      "start": "2025-04-15",
+      "end": "2025-04-16",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 176955
+    },
+    {
+      "id": 248379,
+      "name": "NINJIO Training Enrollment + AWARE S09|E06 - Medical Meltdown",
+      "start": "2025-01-21",
+      "end": "2099-12-31",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 155300
+    },
+    {
+      "id": 248381,
+      "name": "NINJIO Training Enrollment + AWARE S09|E10 - I've Got Your Number",
+      "start": "2025-01-21",
+      "end": "2099-12-31",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 155300
+    },
+    {
+      "id": 248378,
+      "name": "NINJIO Training Enrollment + AWARE S09|E05 - I Can't Believe What I'm Seeing",
+      "start": "2025-01-21",
+      "end": "2099-12-31",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 155300
+    },
+    {
+      "id": 248380,
+      "name": "NINJIO Training Enrollment + AWARE S09|E08 - DocuSign Double Take",
+      "start": "2025-01-21",
+      "end": "2099-12-31",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 155300
+    },
+    {
+      "id": 286598,
+      "name": "SOCIAL 101 - March Lured - once Lured ",
+      "start": "2025-04-15",
+      "end": "2025-04-27",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": true,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 177270
+    },
+    {
+      "id": 286599,
+      "name": "2nd lured Remedial | 908 - Docusign double Take ",
+      "start": "2025-04-15",
+      "end": "2025-04-27",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 177270
+    },
+    {
+      "id": 285469,
+      "name": "S10|E04 Episode",
+      "start": "2025-04-08",
+      "end": "2025-04-09",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 176955
+    },
+    {
+      "id": 269519,
+      "name": "1003 Cartoon",
+      "start": "2025-03-18",
+      "end": "2025-03-19",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 166901
+    },
+    {
+      "id": 269513,
+      "name": "1003 Infographic",
+      "start": "2025-03-11",
+      "end": "2025-03-12",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 166901
+    },
+    {
+      "id": 269746,
+      "name": "SENSE 101 Curiosity ",
+      "start": "2025-03-11",
+      "end": "2025-03-30",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": true,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 166951
+    },
+    {
+      "id": 269757,
+      "name": "S03|E11",
+      "start": "2025-03-11",
+      "end": "2025-03-30",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 166951
+    },
+    {
+      "id": 269756,
+      "name": "Docusign S09| E08 ",
+      "start": "2025-03-11",
+      "end": "2025-03-30",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 166951
+    },
+    {
+      "id": 269512,
+      "name": "S10|E03 Episode",
+      "start": "2025-03-04",
+      "end": "2025-03-05",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 166901
+    },
+    {
+      "id": 251827,
+      "name": "1002 Cartoon",
+      "start": "2025-02-18",
+      "end": "2025-02-19",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 156599
+    },
+    {
+      "id": 251826,
+      "name": "1002 Infographic",
+      "start": "2025-02-11",
+      "end": "2025-02-12",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 156599
+    },
+    {
+      "id": 251825,
+      "name": "S10|E02 Episode",
+      "start": "2025-02-04",
+      "end": "2025-02-05",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 156599
+    },
+    {
+      "id": 231759,
+      "name": "1001 Cartoon",
+      "start": "2025-01-21",
+      "end": "2025-01-22",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 10,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 145239
+    },
+    {
+      "id": 75197,
+      "name": "UPDATED Jobber Custom Enrollment + AWARE ANIME S07|E08 - Spear Phishing",
+      "start": "2024-01-23",
+      "end": "2099-12-31",
+      "emotions": {
+        "is_greed": false,
+        "is_curiosity": false,
+        "is_obedience": false,
+        "is_fear": false,
+        "is_urgency": false,
+        "is_social": false,
+        "is_opportunity": false
+      },
+      "batch_size": 100,
+      "employee_send_times": 1,
+      "days_of_week": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "customer_id": 3906,
+      "campaign_id": 42196
+    }
+  ],
+  "num_pages": 6,
+  "page_size": 20,
+  "current_page": 1,
+  "has_next": true,
+  "has_previous": false,
+  "total_items": 112
+}
